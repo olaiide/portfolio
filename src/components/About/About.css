@@ -1,0 +1,78 @@
+.about-me {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:;
+}
+.about-content {
+    width: 460px;
+    height:px;
+    line-height:2;
+    margin: 5px;
+    font-size: var(--fs-lg);
+}
+.about-content-wrapper h3{
+    font-weight: 600;
+    line-height: 1.1;
+    color: #66ffda;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.about-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.about-btns Button {
+    margin: 10px;
+
+}
+
+.about-btns Button a {
+    color: #66ffda;
+    text-decoration: none;
+}
+.my-skills{
+    margin-right: 2rem;
+}
+.my-skills p{
+ font-size: var(--fs-lg);
+ margin-left: 0.3rem;
+}
+.skills-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 0.7fr);
+    font-size: var(--fs-md);
+    margin : 1rem 0 0 1.6rem;
+}
+.skills-list li{
+    padding: 0.2rem;
+}
+.skills-list li:before{
+    content: '▹';
+    color: #34b494;
+}
+@media screen and (max-width : 960px){
+   .about{
+       flex-direction: column;
+       margin-top: 9rem;
+   }
+   .about-content-wrapper{
+       margin-left: 2rem;
+   }
+   .about-content{
+       width:90%;
+       line-height: 1.7;
+   }
+   .about-btns{
+       margin-top: 1.5rem;
+   }
+   .about-btns Button{
+      margin: px;
+   }
+}

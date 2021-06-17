@@ -1,0 +1,44 @@
+
+.landing-page{
+    margin-top: 2rem;
+}
+.landing-page img{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    padding-right: 8px;
+}
+.landing-page h2{
+    color: #66ffda;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.landing-page p{
+    font-weight: 800;
+    font-size: var(-f--sm);
+}
+@media screen and (max-width: 960px){
+.wrapper{
+    flex-direction: column;
+}
+.landing-page{
+    margin-left: 2rem;
+}
+.landing-page h2 {
+    font-size: 2rem;
+}
+.avatar{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6.5rem;
+    margin-bottom: 6rem;
+    height: 250px;
+};
+   

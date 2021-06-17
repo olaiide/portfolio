@@ -1,0 +1,124 @@
+.container{
+    margin-top: 5rem;
+    text-align: center;
+    height: 1000px;
+}
+.project-heading{
+    color: #66ffda;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.project-container {
+    
+}
+.project-data{
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(2, 0.4fr);
+    row-gap: 100px;
+    column-gap: 50px;
+    justify-content: center;
+}
+.img-wrapper {
+    width:100%;
+    height:260px;
+    background: rgb(11,11,15);
+}
+.project-img {
+  width: 100%;
+  height: 260px;
+  opacity: 0.6;
+  transition: all 0.3s ease-out;
+  color: #66ffda;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.project-img:hover{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.project-content{
+    margin-top: px;
+    background-color: rgb(11,11,15);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.project-name {
+    font-size: var(--fs-lg);
+}
+.project-description{
+    font-size: var(--fs-lg);
+    opacity: 0.4;
+    width: 300px;
+    margin: 0 auto;
+
+}
+.project-linkss{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: 0 auto;
+}
+.project-content a {
+ text-decoration: none;
+}
+.fa-eye, .fa-github{
+    color: white;
+    opacity: 0.4;
+    font-size: var(--fs-md);
+}
+.fa-github{
+   font-size: var(--fs-lg);
+}
+.live{
+    position: relative;
+    left: 3px;
+}
+
+@media screen and (max-width : 960px){
+    .container{
+        height: auto;
+        width: 100%;
+    }
+
+    .project-data{
+        grid-template-columns: repeat(1, 0.3fr);
+        row-gap: 50px;
+        width: 100%;
+        padding: 0 50px 0 50px;
+    }
+    .img-wrapper{
+        height: px;
+        width: 100%;
+    }
+    .project-img{
+        height: 80%;
+        opacity: 0.8;
+    }
+    .project-content{
+        height: 100px;
+        position: relative;
+        top: -30px;
+    }
+    .project-description,
+    .project-name{
+        font-size: var(--fs-sm);
+    }
+}
+
+@media screen and (min-width :670px) and (max-width : 960px){
+    .project-img{
+        display:;
+    }
+    .project-data{
+       grid-template-columns: repeat(2, 0.2fr);
+    }
+   
+}

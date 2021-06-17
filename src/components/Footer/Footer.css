@@ -1,0 +1,39 @@
+
+.footer-container {
+    background-color: rgb(11,11,15);
+    margin-top: 4rem;
+    height: 150px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+   margin : 27px 0 0 2rem;
+}
+.footer-logo img {
+  width:170px;
+  height:100px;
+}
+.fa-linkedin-in,
+.fa-twitter {
+    color: white;
+    padding: 2rem;
+    font-size: 23px;
+    margin-top: 27px;
+}
+.fa-github{
+    color: white;
+    font-size: 23px;
+}
+@media screen and (max-width : 960px){
+  .footer-links{
+      margin-right: 4px;
+  }
+  .fa-linkedin-in, .fa-twitter, .fa-github{
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .fa-linkedin-in{
+      padding-right: 0;
+  }
+}
