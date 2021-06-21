@@ -4,13 +4,11 @@
     height: 1000px;
 }
 .project-heading{
+    font-family: 'Poppins-SemiBold';
     color: #66ffda;
     line-height: 1.1;
     font-weight: 600;
     margin-bottom: 4rem;
-}
-.project-container {
-    
 }
 .project-data{
     border-radius: 5px;
@@ -51,13 +49,15 @@
     border-bottom-right-radius: 5px;
 }
 .project-name {
-    font-size: var(--fs-lg);
+    font-size: var(--fs-sm);
+    font-family: 'Poppins-Medium';
 }
 .project-description{
-    font-size: var(--fs-lg);
+    font-size: var(--fs-sm);
     opacity: 0.4;
     width: 300px;
     margin: 0 auto;
+    font-family: 'Poppins-Extralight'
 
 }
 .project-linkss{
@@ -87,36 +87,30 @@
         height: auto;
         width: 100%;
     }
-
     .project-data{
         grid-template-columns: repeat(1, 0.3fr);
         row-gap: 50px;
         width: 100%;
         padding: 0 50px 0 50px;
     }
-    .img-wrapper{
-        height: px;
-        width: 100%;
-    }
     .project-img{
         height: 80%;
-        opacity: 0.8;
     }
     .project-content{
-        height: 100px;
+        height: 130px;
         position: relative;
-        top: -30px;
+        top: -40px;
     }
     .project-description,
     .project-name{
         font-size: var(--fs-sm);
     }
+    .live{
+        font-size: var(--fs-sm);
+    }
 }
 
 @media screen and (min-width :670px) and (max-width : 960px){
-    .project-img{
-        display:;
-    }
     .project-data{
        grid-template-columns: repeat(2, 0.2fr);
     }

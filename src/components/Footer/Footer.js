@@ -8,13 +8,14 @@ const Footer = () => {
                <div className="footer-logo"><img src={FooterLogo} alt="Logo" /></div>
                <div className="footer-links">
                  <div className="footer-icons">
-                  <a href="http://linkedin.com/in/olaide-kolade-238247aa" target="_blank">
+                  <a href="http://linkedin.com/in/olaide-kolade-238247aa" 
+                  target="_blank" rel="noopener noreferrer">
                       <i class="fab fa-linkedin-in"></i>
                       </a>
-                  <a href="https://github.com/olaiide" target="_blank">
-                      <i class="fa fa-github" aria-hidden="true"></i>
+                  <a href="https://github.com/olaiide" target="_blank" rel="noopener noreferrer">
+                      <i class="fa fa-github github" aria-hidden="true"></i>
                       </a>
-                  <a href="https://twitter.com/olaiide" target="_blank">
+                  <a href="https://twitter.com/olaiide" target="_blank" rel="noopener noreferrer">
                       <i class="fab fa-twitter"></i>
                       </a>
                   </div>

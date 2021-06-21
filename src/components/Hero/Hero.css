@@ -13,9 +13,10 @@
     padding-top: 30px;
     font-weight: 900;
     font-size: 3rem;
+    font-family: 'Poppins-Bold';
 }
 .landing-page p{
-    font-weight: 800;
+    font-family: 'Poppins-Regular';
     font-size: var(-f--sm);
 }
 @media screen and (max-width: 960px){

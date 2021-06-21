@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './Form.css';
 import Button from './Button';

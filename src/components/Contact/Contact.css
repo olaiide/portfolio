@@ -6,12 +6,13 @@
     margin-bottom: 1rem;
     font-weight: 600;
     line-height: 1.1;
+    font-family: 'Poppins-Semibold';
 }
 .container-contact p{
     margin-bottom: 2rem;
     opacity: 0.8;
-    font-size: var(--fs-xl);
-    font-weight: 400;
+    font-size: var(--fs-md);
+    font-family: 'Poppins-Medium';
 }
 .contact {
     display: flex;
@@ -28,9 +29,13 @@
     color: white;
     text-decoration: none;
     padding-left: 20px;
+    font-family: 'Poppins-Light';
 }
 .main-contact a:hover{
     text-decoration: underline;
+}
+.address{
+    font-family: 'Poppins-Light';
 }
 .fa-map-marker,
  .fa-envelope-open,
@@ -45,7 +50,7 @@
      padding: 20px;
  }
 .fa-map-marker{
-    margin-right: 1rem;
+    margin-right: 1.1rem;
 }
 
 @media screen and (max-width : 960px){
@@ -53,7 +58,7 @@
         margin: 0;
     }
     .container-contact p {
-        font-size: var(--fs-lg);
+        font-size: var(--fs-md);
         margin: 2rem 0 0 2rem;
     }
     .container-contact h3{
@@ -65,8 +70,15 @@
     .main-contact{
         padding: 30px;
     }
+    .main-contact a{
+        font-family: ;
+    }
+    .mail a {
+        font-size: 16px;
+    }
     .address,.telephone, .mail{
-        font-size: 18px;
+        font-size: 16px;
+        font-family: 'Poppins-Light';
     }
 }
 

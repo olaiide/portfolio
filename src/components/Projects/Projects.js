@@ -43,10 +43,10 @@ const Project = () => {
               return (
                 <div key={id} className="map">
                    <div className="img-wrapper">
-                     <a href={data.link} target="_blank" rel="noreferrer">
+                     <a href={data.link} target="_blank" rel="noopener noreferrer">
                        <img
                       src={data.image} 
-                      alt="Homedelivery image" 
+                      alt="Homedelivery" 
                       className="project-img"
                      />
                      </a>

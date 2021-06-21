@@ -16,7 +16,8 @@ const About = () => {
                  Enthusiastic software developer who brings superior front-end design
                  to promote organization-specific website presence. Skilled in developing web-based
                  applications by incorporating a wide range of technologies. A fast learner with 
-                 astonishing problem-solving skills, communication skills and a team player.</p>
+                 astonishing problem-solving skills, communication skills and a team player.
+                 When I'm not writing codes, I'm either listening to music or sleeping. </p>
                 <div className='my-skills'>
                  <p>Here are the technologies and tools I work with:</p>
                  <ul className="skills-list">

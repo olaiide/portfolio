@@ -4,13 +4,13 @@
   font-size: var(--fs-lg);
   color: rgb(0, 255, 186);
   font-size: 1.2rem;
-  text-transform:;
+  font-family: 'Poppins-Regular';
   padding-top: 30px;
 }
 
 @media screen and (max-width : 960px){
 .typewriter{
   font-size: 20px;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
 }
 }

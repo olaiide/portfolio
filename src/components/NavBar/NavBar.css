@@ -54,6 +54,7 @@
       margin-right: 1rem;
       padding: 0.5rem;
       font-size: var(--f-md);
+      font-family: 'Poppins-Medium';
   }
   .nav-links:hover{
      color: #64ffda;
@@ -109,7 +110,7 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: -12px;
+    top: 0;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;

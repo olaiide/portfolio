@@ -8,12 +8,12 @@ const Hero = () => {
         <Fragment>
           <div className="wrapper" id="Home">
            <div className="landing-page">
-             <p>Hi There<img src={Emoji}/> I'm</p>
+             <p>Hi There<img src={Emoji} alt="hi there"/> I'm</p>
              <h2>Olaide Kolade,</h2>
              <div><TypeWriter /></div>
              </div>
                <div className="avatar">
-                 <img src={Avatar} />
+                 <img src={Avatar} alt="avatar" />
               </div>
            </div>
         </Fragment>

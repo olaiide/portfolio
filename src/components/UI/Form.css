@@ -7,8 +7,9 @@
     margin-bottom: 1.5rem;
 }
 .form-control label{
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
     margin-bottom: 0.5rem;
+    font-family: 'Poppins-Regular';
 }
 .form-control input{
     width: 23rem;

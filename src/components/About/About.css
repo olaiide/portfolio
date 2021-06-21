@@ -5,14 +5,14 @@
 .about{
     display: flex;
     justify-content: space-around;
-    flex-direction:;
 }
 .about-content {
     width: 460px;
     height:px;
-    line-height:2;
+    line-height: 2.4;
     margin: 5px;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
+    font-family: 'Poppins-Light';
 }
 .about-content-wrapper h3{
     font-weight: 600;
@@ -20,6 +20,7 @@
     color: #66ffda;
     margin-bottom: 2rem;
     margin-top: 3rem;
+    font-family: 'Poppins-Bold';
 }
 .about-btns {
     display: flex;
@@ -31,7 +32,6 @@
     margin: 10px;
 
 }
-
 .about-btns Button a {
     color: #66ffda;
     text-decoration: none;
@@ -40,8 +40,9 @@
     margin-right: 2rem;
 }
 .my-skills p{
- font-size: var(--fs-lg);
+ font-size: var(--fs-md);
  margin-left: 0.3rem;
+ font-family: 'Poppins-Light';
 }
 .skills-list {
     list-style: none;
@@ -49,6 +50,7 @@
     grid-template-columns: repeat(2, 0.7fr);
     font-size: var(--fs-md);
     margin : 1rem 0 0 1.6rem;
+    font-family: 'Poppins-SemiBold';
 }
 .skills-list li{
     padding: 0.2rem;
@@ -67,12 +69,16 @@
    }
    .about-content{
        width:90%;
-       line-height: 1.7;
+       line-height: 2.5;
+   }
+   .skills-list li{
+    padding: 0.4rem;
+   }
+   .skills-list li:before{
+    content: '▹';
+    font-size: var(--fs-sm);
    }
    .about-btns{
        margin-top: 1.5rem;
-   }
-   .about-btns Button{
-      margin: px;
    }
 }

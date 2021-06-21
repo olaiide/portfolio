@@ -4,9 +4,15 @@
     background-color: #030201;
     border-radius: 5px;
     color: #64ffda;
-    font-size: var(--fs-lg);
+    font-size: var(--fs-md);
+    font-family: 'Poppins-Medium';
 };
 .button:hover{
     background-color: #64ffda;
     color: red;
+}
+@media screen and (max-width : 960px){
+    .button{
+        font-size: var(--fs-md);
+    }
 }
