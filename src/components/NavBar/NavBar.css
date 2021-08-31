@@ -1,111 +1,110 @@
-
 .navbar {
-    background-color: ;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--fs-lg);
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    transition: all 1s ease;
-  }
-.navbar-change {
-    background-color: rgba(8, 8, 8, 0.568);
-    transition: all 1s ease;
+  background-color: ;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs-lg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  transition: all 1s ease;
 }
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    max-width: 1500px;
-  }
-  
-  .nav-logo {
-    color: #66ffda;
-    align-items: center;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 3px;
-  }
-  .nav-logo img {
-      width: 70px;
-      height: 70px;
-  }
+.navbar-change {
+  background-color: rgba(8, 8, 8, 0.568);
+  transition: all 1s ease;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.nav-logo {
+  color: #66ffda;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3px;
+}
+.nav-logo img {
+  width: 70px;
+  height: 70px;
+}
+.nav-menu {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-links {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.3rem;
+  padding-right: rem;
+  height: 100%;
+}
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  font-size: var(--f-md);
+  font-family: "Poppins-Medium";
+}
+.nav-links:hover {
+  color: #64ffda;
+  transition: all 0.5s;
+}
+.nav-item .active {
+  color: #64ffda;
+}
+.nav-icon {
+  display: none;
+}
+.list {
+  padding-right: 0.1rem;
+  color: #64ffda;
+  font-size: var(--fs-md);
+}
+.fa-bars {
+  color: #64ffda;
+}
+.fa-times {
+  color: #64ffda;
+}
+@media screen and (max-width: 960px) {
   .nav-menu {
-      display: flex;
-      text-align: center;
-      list-style: none;
-      margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(11, 11, 15);
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: -110%;
+    transition: all 0.5s ease;
+    opacity: 1;
   }
-  .nav-links{
-      text-decoration: none;
-      color: white;
-      padding: 0.5rem 0.3rem;
-      padding-right: rem;
-      height: 100%;
-  }
-  .nav-item {
-      line-height: 40px;
-      margin-right: 1rem;
-      padding: 0.5rem;
-      font-size: var(--f-md);
-      font-family: 'Poppins-Medium';
-  }
-  .nav-links:hover{
-     color: #64ffda;
-     transition: all 0.5s;
-  }
-  .nav-item .active {
-      color: #64ffda;
-  }
-  .nav-icon{
-      display: none;
-  }
-  .list {
-      padding-right: 0.1rem;
-      color: #64ffda;
-      font-size: var(--fs-md);
-  }
-  .fa-bars {
-      color: #64ffda;
-  }
-  .fa-times {
-      color: #64ffda;
-  }
-  @media screen and (max-width: 960px) {
-  .nav-menu{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      background-color: rgb(11,11,15);
-      height: 100vh;
-      position: absolute;
-      top: 80px;
-      right: 0;
-      left:-110%;
-      transition: all 0.5s ease;
-      opacity: 1;
-  }
-  .nav-menu.active{
-      color: #66ffda;
-      opacity: 1;
-      left: 0;
-      transition: all 0.5s ease;
-      z-index: 1;
+  .nav-menu.active {
+    color: #66ffda;
+    opacity: 1;
+    left: 0;
+    transition: all 0.5s ease;
+    z-index: 1;
   }
   .nav-links {
-      padding: 0.7rem;
-      width: 100%;
-      display:table;
-      font-size: var(--fs-xxl);
+    padding: 0.7rem;
+    width: 100%;
+    display: table;
+    font-size: var(--fs-xxl);
   }
   .nav-links:hover {
-      color: #64ffda;
+    color: #64ffda;
   }
   .nav-icon {
     display: block;
@@ -116,8 +115,7 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
-  .list{
-      display: none;
+  .list {
+    display: none;
   }
-  }
-  
+}

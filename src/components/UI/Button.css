@@ -1,18 +1,15 @@
-.button{
-    border: 1px solid #64ffda;
-    padding: 0.7rem 2rem 0.7rem 2rem;
-    background-color: #030201;
-    border-radius: 5px;
-    color: #64ffda;
-    font-size: var(--fs-md);
-    font-family: 'Poppins-Medium';
-};
-.button:hover{
-    background-color: #64ffda;
-    color: red;
+.button {
+  border: 1px solid #64ffda;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: #030201;
+  border-radius: 5px;
+  color: #64ffda;
+  font-size: var(--fs-md);
+  font-family: "Poppins-Medium";
+  cursor: pointer;
 }
-@media screen and (max-width : 960px){
-    .button{
-        font-size: var(--fs-md);
-    }
+@media screen and (max-width: 960px) {
+  .button {
+    font-size: var(--fs-md);
+  }
 }

@@ -1,64 +1,66 @@
 .form-control label,
 .form-control input,
 .form-control textarea {
-    display: block;
+  display: block;
 }
-.form-control{
-    margin-bottom: 1.5rem;
+.form-control {
+  margin-bottom: 1.5rem;
 }
-.form-control label{
-    font-size: var(--fs-md);
-    margin-bottom: 0.5rem;
-    font-family: 'Poppins-Regular';
+.form-control label {
+  font-size: var(--fs-md);
+  margin-bottom: 0.5rem;
+  font-family: "Poppins-Regular";
 }
-.form-control input{
-    width: 23rem;
-    max-width: 100%;
-    padding: 0.7rem;
-    background-color: #262626;
-    color: white;
-    font-size: var(--fs-lg);
-    border: none;
-    caret-color:#66ffda;
+.form-control input {
+  width: 23rem;
+  max-width: 100%;
+  padding: 0.7rem;
+  background-color: #262626;
+  color: white;
+  font-size: var(--fs-lg);
+  border: none;
+  caret-color: #66ffda;
 }
-.form-control label::after{
-  content: '*';
+.form-control label::after {
+  content: "*";
   position: relative;
   top: 2px;
   padding-left: 3px;
 }
-.form-control textarea{
-    width: 23rem;
-    max-width: 100%;
-    height: 180px;
-    background-color: #262626;
-    border: none;
-    font-size: var(--fs-md);
-    color: white;
-    caret-color: #66ffda;
+.form-control textarea {
+  width: 23rem;
+  max-width: 100%;
+  height: 180px;
+  background-color: #262626;
+  border: none;
+  font-size: var(--fs-md);
+  color: white;
+  caret-color: #66ffda;
 }
 .form-control input:focus,
-.form-control textarea:focus{
-    border: 1px solid #66ffda;
-    border: 1px solid rgb(0,255,186);
-    outline: none;
-    font-size: var(--fs-lg);
-    background-color: #262626 !important;
+.form-control textarea:focus {
+  border: 1px solid #66ffda;
+  border: 1px solid rgb(0, 255, 186);
+  outline: none;
+  font-size: var(--fs-lg);
+  background-color: #262626 !important;
 }
 
-@media screen and (max-width : 960px){
-    .form-control{
-        padding: 0 40px 0 40px;
-    }
-    .control-group Button {
-        margin-left: 40px;
-    }
-    .form-control input, .form-control textarea{
-        width: 100%;
-    }
+@media screen and (max-width: 960px) {
+  .form-control {
+    padding: 0 40px 0 40px;
+  }
+  .control-group button {
+    margin-left: 40px;
+  }
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+  }
 }
-@media screen and (min-width :670px) and (max-width : 960px){
-    .form-control input, .form-control textarea{
-        width: 80%;
-    }
+@media screen and (min-width: 670px) and (max-width: 960px) {
+  .form-control input,
+  .form-control textarea {
+    width: 80%;
+  }
 }
