@@ -5,23 +5,34 @@ import Homedelivery from "../../assets/Homedelivery.jpg";
 import WeatherApp from "../../assets/Weatherapp.png";
 import LoanCalculator from "../../assets/Loancalculator.png";
 import NumberGuess from "../../assets/Numberguess.png";
+import Ecommerce from "../../assets/E-Commerce.png";
 const Project = () => {
   const Projects = [
+    {
+      name: "E-Commerce",
+      link: "https://floffystores.netlify.app/",
+      image: Ecommerce,
+      description:
+        "An e-commerce web app with features to add products to cart and checkout with stripe",
+      github: "https://github.com/olaiide/fluffy-stores",
+    },
     {
       name: "Movie Finder",
       link: "https://movies-finder247.netlify.app/",
       image: Moviefinder,
       description:
-        "A movie finder app that allows user search for movies, get details and watch trailers",
+        "A movie finder web app that allows user search for movies, get details and watch trailers",
       github: "https://github.com/olaiide/Movie-finder",
     },
     {
-      name: "Home Delivery Landing Page",
-      link: "https://homedelivery.netlify.app/",
-      image: Homedelivery,
-      description: "A landing page for a home delivery website",
-      github: "https://github.com/olaiide/home-delivery",
+      name: "Weather App",
+      link: "https://current-weather-247.netlify.app/",
+      image: WeatherApp,
+      description:
+        "A weather map that shows major current weather components of specified city upon search.",
+      github: "https://github.com/olaiide/Weather-app",
     },
+
     {
       name: "Loan Calculator",
       link: " https://loan-web-calculator.netlify.app/",
@@ -31,12 +42,11 @@ const Project = () => {
       github: "https://github.com/olaiide/loan-calculator",
     },
     {
-      name: "Weather App",
-      link: "https://current-weather-247.netlify.app/",
-      image: WeatherApp,
-      description:
-        "A weather map that shows major current weather components of specified city upon search.",
-      github: "https://github.com/olaiide/Weather-app",
+      name: "Home Delivery Landing Page",
+      link: "https://homedelivery.netlify.app/",
+      image: Homedelivery,
+      description: "A landing page for a home delivery website",
+      github: "https://github.com/olaiide/home-delivery",
     },
     {
       name: "Number Guesser Game",
