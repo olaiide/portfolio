@@ -14,11 +14,13 @@
   display: grid;
   grid-template-columns: repeat(2, 0.4fr);
   row-gap: 100px;
-  column-gap: 70px;
+  column-gap: 0px; 
   justify-content: center;
+  
 }
 .project-wrapper {
   width: 500px;
+  margin : 0 auto;
 }
 .img-wrapper {
   background: rgb(11, 11, 15);

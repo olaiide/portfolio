@@ -14,11 +14,7 @@ const About = () => {
           <div className="about-content-wrapper">
             <h3>About Me</h3>
             <p className="about-content">
-              Enthusiastic software developer who brings superior front-end
-              design to promote organization-specific website presence. Skilled
-              in developing web-based applications by incorporating a wide range
-              of technologies. A fast learner with astonishing problem-solving
-              skills, communication skills and a team player. When I'm not
+            An enthusiastic and passionate Front-End developer who brings superior front-end design to promote organization-specific website presence. Skilled in developing web-based applications by incorporating a wide range of technologies. A fast learner with astonishing problem-solving skills, communication skills and with interests in accessibility and usability of modern websites.When I'm not
               writing codes, I'm either listening to music or sleeping.{" "}
             </p>
             <div className="my-skills">
