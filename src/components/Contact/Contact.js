@@ -5,10 +5,12 @@ const Contact = () => {
   return (
     <Fragment>
       <div className="container-contact" id="Contact">
-        <h3>Contact Me</h3>
-        <p>Got a project or an idea? Get in touch.</p>
+       
         <div className="contact">
+      
           <div>
+          <h3>Contact Me</h3>
+        <p>Got a project or an idea? Get in touch.</p>
             <Form />
           </div>
           <div className="main-contact">

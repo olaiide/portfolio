@@ -19,7 +19,7 @@
   
 }
 .project-wrapper {
-  width: 500px;
+  width: 450px;
   margin : 0 auto;
 }
 .img-wrapper {
@@ -132,5 +132,11 @@
   }
   .project-wrapper {
     width: 600px;
+  }
+}
+
+@media screen and (min-width : 1400px) {
+  .project-wrapper {
+    width: 500px;
   }
 }

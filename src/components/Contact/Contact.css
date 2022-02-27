@@ -1,22 +1,26 @@
 .container-contact {
-  margin: 5rem 0 0 6rem;
+/* margin: 5rem 0 0 6rem; */
 }
 .container-contact h3 {
   color: #66ffda;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 7rem;
   font-weight: 600;
   line-height: 1.1;
   font-family: "Poppins-Semibold";
+
+
 }
 .container-contact p {
   margin-bottom: 2rem;
+  margin-top: 3rem;
   opacity: 0.8;
   font-size: var(--fs-md);
   font-family: "Poppins-Medium";
 }
 .contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .main-contact {
   display: flex;
@@ -102,4 +106,9 @@
   .mail {
     font-size: var(--fs-xl);
   }
+}
+
+
+@media screen and (min-width : 1200px){
+
 }
