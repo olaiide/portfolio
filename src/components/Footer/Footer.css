@@ -45,3 +45,9 @@
     top: -30px;
   }
 }
+
+@media screen and (min-width : 1200px){
+  .footer-container{
+    justify-content: space-around;
+  }
+}
