@@ -60,33 +60,33 @@ const Project = () => {
 
   return (
     <Fragment>
-      <div className="container" id="Projects">
-        <h3 className="project-heading">Featured Projects</h3>
-        <div className="project-data">
+      <div className='container' id='Projects'>
+        <h3 className='project-heading'>Featured Projects</h3>
+        <div className='project-data'>
           {Projects.map((data, id) => {
             return (
-              <div key={id} className="project-wrapper">
-                <div className="img-wrapper">
-                  <a href={data.link} target="_blank" rel="noopener noreferrer">
+              <div key={id} className='project-wrapper'>
+                <div className='img-wrapper'>
+                  <a href={data.link} target='_blank' rel='noopener noreferrer'>
                     <img
                       src={data.image}
-                      alt="Homedelivery"
-                      className="project-img"
+                      alt='Homedelivery'
+                      className='project-img'
                     />
                   </a>
                 </div>
-                <div className="project-content">
-                  <h4 className="project-name">{data.name}</h4>
-                  <p className="project-description">{data.description}</p>
+                <div className='project-content'>
+                  <h4 className='project-name'>{data.name}</h4>
+                  <p className='project-description'>{data.description}</p>
 
-                  <div className="project-linkss">
-                    <a href={data.link} target="_blank" rel="noreferrer">
-                      <i class="fas fa-eye">
-                        <span className="live">Live</span>
-                      </i>
+                  <div className='project-linkss'>
+                    <a href={data.link} target='_blank' rel='noreferrer'>
+                      <i class='fas fa-eye'></i>
+                      <span className='live'>Live</span>
                     </a>
-                    <a href={data.github} target="_blank" rel="noreferrer">
-                      <i class="fa fa-github" aria-hidden="true"></i>
+                    <a href={data.github} target='_blank' rel='noreferrer'>
+                      <i class='fa fa-code-fork' aria-hidden='true'></i>
+                      <span className='code'>Code</span>
                     </a>
                   </div>
                 </div>
