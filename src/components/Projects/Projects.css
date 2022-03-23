@@ -75,11 +75,13 @@
   font-size: var(--fs-md);
 }
 .fa-github {
-  font-size: var(--fs-lg);
+  font-size: 20px;
 }
 .live {
   position: relative;
-  left: 3px;
+  left: 5px;
+  font-family: "Poppins-Extralight";
+  font-size: var(--fs-sm) ;
 }
 
 @media screen and (max-width: 960px) {
