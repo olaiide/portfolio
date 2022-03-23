@@ -53,7 +53,7 @@
   font-family: "Poppins-Medium";
 }
 .project-description {
-  font-size: var(--fs-sm);
+  font-size: 12px;
   opacity: 0.4;
   width: 400px;
   margin: 0 auto;
@@ -62,28 +62,39 @@
 .project-linkss {
   display: flex;
   justify-content: space-around;
-  width: 100px;
+  width: 120px;
   margin: 0 auto;
 }
+
 .project-content a {
   text-decoration: none;
 }
-.fa-eye,
-.fa-github {
+.link-wrap {
   color: white;
   opacity: 0.4;
-  font-size: var(--fs-md);
+  transition: all 0.3s;
 }
-.fa-github {
-  font-size: 20px;
+.link-wrap:hover{
+  opacity: 1;
 }
-.live {
+.fa-eye, .fa-code-fork {
+  color : white;
+}
+.fa-eye, .fa-code-fork:hover {
+    opacity: 1; 
+}
+.live, .code {
   position: relative;
   left: 5px;
-  font-family: "Poppins-Extralight";
-  font-size: var(--fs-sm) ;
 }
-
+.live, .code {
+  color : white;
+  font-family: "Poppins-ExtraLight";
+  font-size: var(--fs-sm);
+}
+.live, .code:hover {
+ opacity: 1;
+}
 @media screen and (max-width: 960px) {
   .project-data {
     grid-template-columns: repeat(1, 0.3fr);

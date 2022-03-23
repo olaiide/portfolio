@@ -80,14 +80,18 @@ const Project = () => {
                   <p className='project-description'>{data.description}</p>
 
                   <div className='project-linkss'>
+                    <span className="link-wrap">
                     <a href={data.link} target='_blank' rel='noreferrer'>
                       <i class='fas fa-eye'></i>
                       <span className='live'>Live</span>
                     </a>
+                    </span>
+                    <span className="link-wrap">
                     <a href={data.github} target='_blank' rel='noreferrer'>
                       <i class='fa fa-code-fork' aria-hidden='true'></i>
                       <span className='code'>Code</span>
                     </a>
+                    </span>
                   </div>
                 </div>
               </div>
