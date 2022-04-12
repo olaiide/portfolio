@@ -36,6 +36,10 @@
     color: #66ffda;
     text-decoration: none;
 }
+.span {
+    color : #34b494;
+    opacity: 1;
+}
 .my-skills{
     margin-right: 2rem;
 }

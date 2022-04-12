@@ -69,18 +69,12 @@
   color: #64ffda;
   font-size: var(--fs-md);
 }
-.fa-bars {
-  color: #64ffda;
-}
-.fa-times {
-  color: #64ffda;
-}
 .nav-icon {
   display: none;
 }
 .menu_btn_line {
   height: 1px;
-  width: 25px;
+  width: 27px;
   margin : 7px 0;
   color: white;
 }

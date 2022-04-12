@@ -6,7 +6,15 @@ import Button from "../UI/Button";
 import Resume from "./Resume.pdf";
 
 const About = () => {
-  const skills = ["HTML", "CSS", "Javascript(ES6+)", "React", "Typescript", "Git", "Vs Code"];
+  const skills = [
+    "HTML",
+    "CSS",
+    "Javascript(ES6+)",
+    "React",
+    "Typescript",
+    "Git",
+    "Vs Code",
+  ];
   return (
     <Fragment>
       <div className='about-me' id='About'>
@@ -14,12 +22,19 @@ const About = () => {
           <div className='about-content-wrapper'>
             <h3>About Me</h3>
             <p className='about-content'>
-              An enthusiastic and passionate Front-End developer who brings
+              An enthusiastic and passionate{" "}
+              <span className='span'>Front-End developer </span> who brings
               superior front-end design to promote organization-specific website
-              presence. Skilled in developing web-based applications by
-              incorporating a wide range of technologies. A fast learner with
-              astonishing problem-solving skills, communication skills and with
-              interests in accessibility and usability of modern websites.
+              presence. Skilled in{" "}
+              <span className='span'>developing web-based applications </span>{" "}
+              featuring proactive optimization and mobile responsiveness by
+              incorporating an array of{" "}
+              <span className='span'>
+                latest frontend technologies and tools
+              </span>
+              . A fast learner with astonishing problem-solving skills,
+              communication skills and with interests in accessibility and
+              <span className='span'> usability of modern websites</span>.
               Outside coding, I love watching basketball and listening to music.{" "}
             </p>
             <div className='my-skills'>
