@@ -61,9 +61,18 @@ const NavBar = () => {
               </a>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          <div
+            className={click ? "menu_btn menu_btn_line" : "menu_btn menu_btn_open"}
+            onClick={handleClick}
+          >
+            <div className="menu_btn_line"></div>
+            <div className="menu_btn_line"></div>
+            {/* <div className="menu_btn_line"></div> */}
           </div>
+          {/* <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+        
+          </div> */}
         </div>
       </nav>
     </Fragment>
