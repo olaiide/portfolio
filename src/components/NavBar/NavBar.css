@@ -94,22 +94,19 @@
 .menu_btn.menu_btn_open .menu_btn_line {
   width: 25px;
   transition: width 0.2s linear;
-  color: white;
-  background-color: white;
+  background-color: #64ffda;
 }
 .menu_btn_line :nth-child(1) {
   transform: rotate(45deg) translateY(7px);
   position: relative;
   top: 1px;
   transition: transform 0.2s linear;
-  background-color: white;
-  color: white;
+  background-color: #66ffda;
 }
 .menu_btn_line :nth-child(2) {
   transform: rotate(-45deg) translateY(-7px);
   transition: transform 0.2s linear;
-  background-color: white;
-  color: white;
+  background-color: #64ffda;
 }
 @media screen and (max-width: 960px) {
   .nav-menu {
@@ -134,16 +131,15 @@
   }
   .menu_btn {
     display: block;
-    color: white;
-    height: 25px;
+    height: 30px;
     cursor: pointer;
-    background-color:  red;
+    margin: 0px 20px;
   }
   .nav-links {
-    padding: 0.7rem;
+    padding: 0.3rem;
     width: 100%;
     display: table;
-    font-size: var(--fs-xxl);
+    font-size: var(--fs-xl); 
   }
   .nav-links:hover {
     color: #64ffda;
