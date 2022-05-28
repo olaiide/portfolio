@@ -9,7 +9,7 @@ import Ecommerce from "../../assets/E-Commerce.png";
 const Project = () => {
   const Projects = [
     {
-      name: "E-Commerce",
+      name: "Floffy Stores",
       link: "https://floffystores.netlify.app/",
       image: Ecommerce,
       description:
@@ -42,14 +42,14 @@ const Project = () => {
       github: "https://github.com/olaiide/loan-calculator",
     },
     {
-      name: "Home Delivery Landing Page",
+      name: "Home Delivery",
       link: "https://homedelivery.netlify.app/",
       image: Homedelivery,
       description: "A landing page for a home delivery website",
       github: "https://github.com/olaiide/home-delivery",
     },
     {
-      name: "Number Guesser Game",
+      name: "Number Guesser",
       link: "https://num-guess.netlify.app/",
       image: NumberGuess,
       description:
@@ -66,15 +66,6 @@ const Project = () => {
           {Projects.map((data, id) => {
             return (
               <div key={id} className='project-wrapper'>
-                <div className='img-wrapper'>
-                  <a href={data.link} target='_blank' rel='noopener noreferrer'>
-                    <img
-                      src={data.image}
-                      alt='Homedelivery'
-                      className='project-img'
-                    />
-                  </a>
-                </div>
                 <div className='project-content'>
                   <h4 className='project-name'>{data.name}</h4>
                   <p className='project-description'>{data.description}</p>
