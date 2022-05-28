@@ -32,10 +32,8 @@ const About = () => {
               <span className='span'>
                 latest frontend technologies and tools
               </span>
-              . A fast learner with astonishing problem-solving skills,
-              communication skills and with interests in accessibility and
+              . A fast learner with astonishing problem-solving skills and with interests in accessibility and
               <span className='span'> usability of modern websites</span>.
-              Outside coding, I love watching basketball and listening to music.{" "}
             </p>
             <div className='my-skills'>
               <p>Here are the technologies and tools I work with:</p>
