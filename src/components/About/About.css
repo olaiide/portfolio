@@ -8,7 +8,6 @@
 }
 .about-content {
     width: 460px;
-    height:px;
     line-height: 2.4;
     margin: 5px;
     font-size: var(--fs-md);
@@ -38,7 +37,7 @@
 }
 .span {
     color : #34b494;
-    opacity: 1;
+    opacity: 0.8;
 }
 .my-skills{
     margin-right: 2rem;
@@ -72,8 +71,8 @@
        margin-left: 2rem;
    }
    .about-content{
-       width:90%;
-       line-height: 2.5;
+       width:97%;
+       line-height: 1.8;
    }
    .skills-list li{
     padding: 0.4rem;

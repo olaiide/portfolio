@@ -54,7 +54,7 @@
 .address,
 .telephone,
 .mail {
-  padding: 20px;
+  padding: 10px;
 }
 .fa-map-marker {
   margin-right: 1.1rem;
@@ -90,6 +90,9 @@
     font-size: 16px;
     font-family: "Poppins-Light";
   }
+  .got {
+    padding-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 670px) and (max-width: 960px) {
@@ -109,6 +112,6 @@
 }
 
 
-@media screen and (min-width : 1200px){
+@media screen and (max-width : 658px){
 
 }

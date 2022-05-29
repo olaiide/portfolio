@@ -31,6 +31,7 @@
   width: 23rem;
   max-width: 100%;
   height: 180px;
+  padding: 0.7rem;
   background-color: #262626;
   border: none;
   font-size: var(--fs-md);
@@ -48,15 +49,16 @@
 
 @media screen and (max-width: 960px) {
   .form-control {
-    padding: 0 40px 0 40px;
+    padding: 0 25px 0 25px;
   }
   .control-group button {
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .form-control input,
   .form-control textarea {
     width: 100%;
   }
+ 
 }
 @media screen and (min-width: 670px) and (max-width: 960px) {
   .form-control input,
